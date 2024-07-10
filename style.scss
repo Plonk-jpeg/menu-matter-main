@@ -1,0 +1,158 @@
+$white: #fcf5eb;
+$black: #070000;
+$null: inherit;
+$font-family_1: "Morbonodi", "Helvetica Neue", sans-serif;
+$font-family_2: "Montserrat-extrabold", "Helvetica Neue", sans-serif;
+$font-family_3: "Glodok", "Helvetica Neue", sans-serif;
+$font-family_4: "Glodok", "Helvetica Neue", sans-serif;
+
+//reset
+html.has-scroll-smooth {
+  overflow: hidden;
+  overflow-x: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.has-scroll-smooth body {
+  overflow: hidden;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.blender-reveal::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+header,
+menu,
+nav,
+section,
+body,
+div,
+span,
+h2,
+p,
+a,
+em,
+img,
+strong,
+li,
+i,
+ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 0;
+}
+@media screen and (min-width: 0) {
+  * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    body {
+      header {
+        height: 957px;
+        width: 350px;
+        nav#header-menu-button {
+          height: 0;
+          width: 0;
+          button.menu-button {
+          }
+          button.menu-button {
+            position: relative;
+            z-index: 1;
+            margin: 85px;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            border: 0;
+            padding: 0;
+          }
+          .menu-panel-container {
+            position: relative;
+            top: -270px;
+        width: 100px;
+        height: 100px;
+        margin: 85px;
+        overflow: hidden;
+        border-radius: 100%;
+        transition: 0.25s ease-in-out;
+            .menu-panel-content {
+              .svgs {
+                position: relative;
+                .shape-embed {
+                  height: 950px;
+                  position: absolute;
+                  top: -100px;
+                  svg {
+                    height: 1055px;
+                    width: 350px;
+                    path {
+                      position: relative;
+                      z-index: 1000;
+                    }
+                  }
+                }
+              }
+            }
+            canvas {
+              position: absolute;
+              top: 0;
+            }
+          }
+          .menu-panel-container.js-active {
+        position: relative;
+        top: -355px;
+        left: -85px;
+        height: 100vh;
+        width: 350px;
+        background-color:blanchedalmond;
+        border-radius: 0;
+        transition: 0.25s ease-in-out;
+          }
+
+          button.menu-button.js-active {
+            .menu-panel-container {
+            }
+          }
+          span {
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 530px) {
+  }
+  @media screen and (min-width: 728px) {
+  }
+}
+@media screen and (min-width: 1920px) {
+}
+@media screen and (min-width: 2400px) {
+}
